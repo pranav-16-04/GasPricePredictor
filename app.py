@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import datetime
 
-app = Flask(__name__)
+app = Flask(_name_)
 
 
 try:
@@ -52,4 +52,3 @@ def predict():
         return render_template('index.html', prediction_text=f'Predicted Price: ${prediction:.2f}')
     except Exception as e:
         return render_template('index.html', prediction_text=f'Error: {str(e)}')
-
