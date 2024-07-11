@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import datetime
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 
 try:
