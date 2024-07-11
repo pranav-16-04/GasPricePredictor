@@ -3,7 +3,7 @@ seaborn
 scikit-learn==1.2.2
 requests
 Flask
-numpy==2.0.0
+numpy
 pandas
 joblib
 gunicorn
