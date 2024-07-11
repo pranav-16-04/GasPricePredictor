@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import datetime
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')
 
 try:
     data = joblib.load('gas.joblib')
