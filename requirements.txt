@@ -8,4 +8,3 @@ pandas==2.2.2
 joblib
 gunicorn
 pip==24.1.2
-os
