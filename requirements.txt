@@ -1,6 +1,6 @@
 matplotlib
 seaborn
-scikit-learn==1.5.1
+scikit-learn==1.2.2
 requests
 Flask
 numpy==1.26.4
