@@ -1,9 +1,10 @@
 matplotlib
 seaborn
-scikit-learn==1.2.2
+scikit-learn==1.5.1
 requests
 Flask
-numpy
-pandas
+numpy==1.26.4
+pandas==2.2.2
 joblib
 gunicorn
+pip==24.1.2
