@@ -6,6 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error, mean_absolute_percentage_error, r2_score
 import joblib
+import os
 
 
 data = pd.read_csv('daily_csv.csv')
