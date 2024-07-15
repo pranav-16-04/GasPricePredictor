@@ -53,7 +53,10 @@ r2 = r2_score(y_test, predictions)
 print(f'R-squared: {r2:.2f}')
 
 
-joblib.dump({'model': model, 'scaler': scaler}, 'gas.joblib')
+joblib_path = os.path.join(os.path.dirname(__file__), 'gas.joblib')
+
+
+joblib.dump({'model': model, 'scaler': scaler}, joblib_path)
 
 plt.figure(figsize=(14, 7))
 plt.plot(data['Date'], data['Price'], label='Price')
