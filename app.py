@@ -6,8 +6,11 @@ import datetime
 
 app = Flask(__name__)
 
+joblib_path = os.path.join(os.path.dirname(__file__), 'gas.joblib')
+
+
 try:
-    data = joblib.load('gas.joblib')
+    data = joblib.load(joblib_path)
     model = data['model']
     scaler = data['scaler']
 except Exception as e:
